@@ -59,27 +59,39 @@ describe('SncfReqBuilder', function() {
     });
 
     it('should return stop_points', function () {
-      demand(new SncfReqBuilder().listRoutes().buildUrl()).be('stop_points');
+      demand(new SncfReqBuilder().listStopPoints().buildUrl()).be('stop_points');
     });
 
     it('should return stop_areas', function () {
-      demand(new SncfReqBuilder().listRoutes().buildUrl()).be('stop_areas');
+      demand(new SncfReqBuilder().listStopAreas().buildUrl()).be('stop_areas');
     });
 
     it('should return departures', function () {
-      demand(new SncfReqBuilder().listRoutes().buildUrl()).be('departures');
+      demand(new SncfReqBuilder().listDepartures().buildUrl()).be('departures');
     });
 
     it('should return arrivals', function () {
-      demand(new SncfReqBuilder().listRoutes().buildUrl()).be('arrivals');
+      demand(new SncfReqBuilder().listArrivals().buildUrl()).be('arrivals');
     });
 
     it('should return commercial_modes', function () {
-      demand(new SncfReqBuilder().listRoutes().buildUrl()).be('commercial_modes');
+      demand(new SncfReqBuilder().listCommercialModes().buildUrl()).be('commercial_modes');
     });
 
     it('should return physical_modes', function () {
-      demand(new SncfReqBuilder().listRoutes().buildUrl()).be('physical_modes');
+      demand(new SncfReqBuilder().listPhysicalModes().buildUrl()).be('physical_modes');
+    });
+
+    it('should return companies', function () {
+      demand(new SncfReqBuilder().listCompanies().buildUrl()).be('companies');
+    });
+
+    it('should return places', function () {
+      demand(new SncfReqBuilder().listPlaces().buildUrl()).be('places');
+    });
+
+    it('should return places', function () {
+      demand(new SncfReqBuilder().listPlacesNearby().buildUrl()).be('places_nearby');
     });
 
   });
