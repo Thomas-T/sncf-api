@@ -3,7 +3,7 @@
   "version": "0.0.7",
   "description": "A simple wrapper for SNCF API",
   "keywords": "sncf, train, API, wrapper, departure, arrival, France",
-  "main": "index.js";
+  "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },

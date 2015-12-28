@@ -1,6 +1,6 @@
 var demand = require("must");
 
-var SncfApi = require('../lib/request/sncf-api');
+var SncfApi = require('../index');
 
 describe('SncfApi', function() {
   describe('#execute()', function () {
