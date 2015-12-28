@@ -5,7 +5,8 @@
   "keywords": "sncf, train, API, wrapper, departure, arrival, France",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"    
   },
   "repository": {
     "type": "git",
@@ -14,12 +15,13 @@
   "author": "Thomas Tiercelin",
   "license": "MIT",
   "dependencies": {
-    "mocha": "^2.3.4",
-    "must": "^0.13.1",
     "request": "^2.67.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.6",
-    "mocha-lcov-reporter": "^1.0.0"
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "mocha-lcov-reporter": "^1.0.0",
+    "must": "^0.13.1"
   }
 }
