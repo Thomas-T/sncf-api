@@ -1,12 +1,12 @@
 {
   "name": "sncf-api",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple wrapper for SNCF API",
   "keywords": "sncf, train, API, wrapper, departure, arrival, France",
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"    
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
   },
   "repository": {
     "type": "git",
