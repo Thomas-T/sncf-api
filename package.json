@@ -2,7 +2,7 @@
   "name": "sncf-api",
   "version": "0.2.0",
   "description": "A simple wrapper for SNCF API",
-  "keywords": "sncf, train, API, wrapper, departure, arrival, France",
+  "keywords": "sncf, train, API, wrapper, departure, arrival, France, gares, gare",
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
