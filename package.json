@@ -1,8 +1,7 @@
 {
-  "name": "sncfapi",
-  "version": "0.0.4",
+  "name": "sncf-api",
+  "version": "0.0.5",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
