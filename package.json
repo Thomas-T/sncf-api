@@ -1,6 +1,6 @@
 {
   "name": "sncf-api",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple wrapper for SNCF API",
   "keywords": "sncf, train, API, wrapper, departure, arrival, France",
   "scripts": {
