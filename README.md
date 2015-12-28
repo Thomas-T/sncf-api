@@ -1,6 +1,7 @@
 #Sncf-API
 
 ![Travis](https://travis-ci.org/Thomas-T/sncf-api.svg?branch=master "travis result")
+[![Coverage Status](https://coveralls.io/repos/Thomas-T/sncf-api/badge.svg?branch=master&service=github)](https://coveralls.io/github/Thomas-T/sncf-api?branch=master)
 
 This is a simple wrapper for the SNCF (French National Railways Company) API.
 [-> for more info on the API itself](https://data.sncf.com/api/fr/documentation "doc link")
