@@ -1,13 +1,13 @@
 {
   "name": "sncfapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Thomas Tiercelin",
+  "license": "MIT",
   "dependencies": {
     "mocha": "^2.3.4",
     "must": "^0.13.1",
