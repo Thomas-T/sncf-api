@@ -1,9 +1,14 @@
 {
   "name": "sncf-api",
   "version": "0.0.5",
-  "description": "",
+  "description": "A simple wrapper for SNCF API",
+  "keywords": "sncf, train, API, wrapper, departure, arrival, France",
   "scripts": {
     "test": "mocha test"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Thomas-T/sncf-api.git"
   },
   "author": "Thomas Tiercelin",
   "license": "MIT",
